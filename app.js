@@ -63,3 +63,57 @@
 
 // Task # 5
 
+// var NewArrayOne = ["a","b","c","d","e"];
+// alert("Array: "+NewArrayOne)
+// var i = 0;
+// do {
+//   if(NewArrayOne === "c"){
+//       alert(NewArrayOne.length);
+//   }
+// }
+// while (i < NewArrayOne.length);
+
+// Task # 6
+
+// function removeVowels(){
+//     var strOne = ["apple","banana","grapes","incognito","universe"];                          
+
+//    string = strOne.map(x=>x.replace( /[aeiou]/g, '' ));              
+
+//   alert(string);
+// }
+// removeVowels();
+
+// Task # 7
+
+// function findOccurrences() {
+//     var str = "Pleases read this application and give me gratuity";
+//     var count = 0;
+//     let haveSeenVowel = false;
+    
+//     for (const letter of str.toLowerCase()) {
+//       switch (letter) {
+//         case 'a':
+//         case 'e':
+//         case 'i':
+//         case 'o':
+//         case 'u':
+//           {
+//             if (haveSeenVowel) {
+//               count++;
+//               haveSeenVowel = false;
+//             } else {
+//               haveSeenVowel = true;
+//             }
+//             break;
+//           }
+//         default:
+//           haveSeenVowel = false
+//       }
+//     }
+//     return count
+//   }
+//   alert("Occurance of vowels: "+findOccurrences());
+
+// TAsk # 8
+
