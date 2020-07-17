@@ -162,9 +162,8 @@
 //     var withdraw = +prompt("enter amount you want to withdraw")
 //     var hundred = withdraw/100;
 //     var fifty = ((withdraw % 100) / 50);
-//     var twenty = (((withdraw % 100) % 50) / 10);
-//     var ten = (((withdraw % 100) % 50) % 10);
-//     alert("Your amount is: "+withdraw+"\nYou'll have "+Math.floor(hundred)+" note(s) of hundred\n"+Math.floor(fifty)+" note(s) of fifty\n"+Math.floor(twenty)+" note(s) of twenty\nAnd "+Math.floor(ten)+" note(s) of ten");
+//     var ten = (((withdraw % 100) % 50) / 10);
+//     alert("Your amount is: "+withdraw+"\nYou'll have "+Math.floor(hundred)+" note(s) of hundred\n"+Math.floor(fifty)+" note(s) of fifty\n"+"And "+Math.floor(ten)+" note(s) of ten");
 // }
 // notes()
 
